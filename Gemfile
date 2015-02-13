@@ -88,6 +88,8 @@ gem 'jquery-timepicker-rails'
 # internationalization
 gem "i18n-js", ">= 3.0.0.rc8"
 
+gem "sqlite3"
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
