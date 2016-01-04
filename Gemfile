@@ -91,7 +91,7 @@ gem "i18n-js", ">= 3.0.0.rc8"
 gem "sqlite3"
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
