@@ -1,1 +1,1 @@
-web: echo $PATH
+web: bundle exec rackup -p 80
