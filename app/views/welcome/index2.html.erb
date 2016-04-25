@@ -24,7 +24,12 @@
       <![endif]-->
     </head>
     <body>
-
+<script type="text/javascript">
+       var userLang = navigator.language || navigator.userLanguage;
+       if(userLang != 'en'){
+        window.loacation = 'index.html.erb';
+    }
+</script>
       <article>
         <div class="container-fluid">
           <div class="row">
