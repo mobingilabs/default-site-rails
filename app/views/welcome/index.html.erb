@@ -24,12 +24,13 @@
       <![endif]-->
   </head>
   <body>
+
     <script type="text/javascript">
-       var userLang = navigator.language || navigator.userLanguage;
-       if(userLang != 'ja'){
-        window.loacation = 'index2.html.erb';
-    }
-</script>
+      var userLang = navigator.language || navigator.userLanguage;
+      if(userLang == 'ja'){
+        window.location.href = "index2.html.erb";
+      }
+    </script>
 
 <article>
   <div class="container-fluid">
