@@ -1,5 +1,6 @@
 App::Application.routes.draw do
   get "welcome/index"
+  get "index2", to: 'welcome#index2'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
